@@ -1,0 +1,17 @@
+virtual_machine_params:
+  ultralytics: "/home/shared/ultralytics"
+  trackeval: "/home/shared/TrackEval"
+  model_weights: "/home/shared/salmon_tracking/training/{DETECTIONS_SOURCE}/weights/best.pt"
+  video_clips: "/home/shared/annotations/video_clips/fps-{FPS}/"
+  detection_data: "/home/shared/tracking_detections/downsampled/"
+  num_workers: 1
+local_machine_params:
+  ultralytics: "~/documents/github/ultralytics"
+  trackeval: "~/documents/github/TrackEval"
+  model_weights: "~/documents/github/salmon_tracking/training/{DETECTIONS_SOURCE}/weights/best.pt"
+  video_clips: "~/documents/salmon_tracking_data/video_clips/fps-{FPS}/" 
+  detection_data: "~/documents/salmon_tracking_data/detections"
+  experiment_visualization_path: "~/documents/salmon_tracking_data/experiment_visualization"
+  experiment_path_root: "~/documents/github/salmon_tracking/tracking/trackers/mot_challenge"
+  gt_data_path: "~/documents/github/salmon_tracking/tracking/gt/mot_challenge"
+  num_workers: 1

@@ -1,0 +1,27 @@
+# Optimization job configuration (default/manual use).
+# Each job defines a model + fps combination.
+# All jobs are run for every tracker listed in `trackers`.
+#
+# For bulk parallel runs, use `launch_all_optimizations.sh` instead,
+# which generates per-window YAML configs in tracking/optimization_jobs/.
+
+trackers:
+  # - bytetrack
+  - botsort
+  # - centroidtrack
+  # - ioutrack
+
+mode: train  # "train" or "test"
+num_search_iterations: 75
+
+detection_source_template: "model_type-{model}_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default"
+
+jobs:
+  - model: yolo12n
+    fps: [30.0]
+
+  # - model: yolo12m
+  #   fps: [30.0]
+
+  # - model: yolo12x
+  #   fps: [30.0, 15.0, 10.0, 7.5]

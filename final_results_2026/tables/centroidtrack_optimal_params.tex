@@ -1,0 +1,15 @@
+\begin{table}[H]
+\caption{HOTA scores and tracker parameters from our optimization method for the Centroid tracker. Confidence and matching thresholds are rounded for readability. The last row shows the "best case" parameters and HOTA score found by optimizing \textit{and} evaluating the tracker directly on the evaluation dataset.  The best HOTA score, based on the unrounded HOTA value, is in bold.}
+\label{tab:centroidtrack params}
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+Tracker & \multicolumn{1}{c|}{HOTA $\uparrow$} & \multicolumn{1}{c|}{Match threshold} & \multicolumn{1}{c|}{Track buffer} & \multicolumn{1}{c|}{Track threshold} \\
+\hline\hline
+Centroid + YOLO12n & 49.2 & 6.73 & 24 & 0.36 \\
+Centroid + YOLO12m & 53.4 & 1.70 & 14 & 0.40 \\
+Centroid + YOLO12x & 55.2 & 6.71 & 60 & 0.32 \\
+\hline
+Centroid + YOLO12x (optimized on test) & \textbf{56.0} & 2.04 & 1 & 0.22 \\
+\hline
+\end{tabular}
+\end{table}

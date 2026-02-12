@@ -1,0 +1,12 @@
+trackers:
+  - bytetrack
+  - centroidtrack
+
+mode: test
+
+detection_source_template: "model_type-{model}_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default"
+
+jobs:
+  - model: yolo12x
+    fps: [7.5]
+    params_source: train_optimized

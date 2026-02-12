@@ -1,0 +1,11 @@
+train:
+ - /home/shared/yolo/datasets/clip_based_tracking/train/
+
+val:
+ - /home/shared/yolo/datasets/clip_based_tracking/test/
+
+nc: 2 # x here represents the number of classes.
+
+names:
+  0: salmon
+  1: pollock

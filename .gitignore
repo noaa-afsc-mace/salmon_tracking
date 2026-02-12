@@ -1,0 +1,36 @@
+# output file for debugging optimization
+output.txt
+
+# model weights
+pretrained_weights/*
+training/*yolo*/weights/
+training/*yolo*/events*
+final_results_2026/training/*yolo*/weights/
+final_results_2026/training/*yolo*/events*
+
+# zip files
+*.zip
+
+# tracking intermediate results
+tracking/visualization/*
+tracking/optimization/smac/*
+detections/
+video_clips/
+
+# macOS files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# test artifacts
+/tracking/tracking_data_generation/merge_split/tests/test_data/yolo_temp
+
+# optimization artifacts
+/tracking/trackers/mot_challenge/MOTFish_*/optimizer_*
+final_results_2026/mot_challenge/MOTFish_*/optimizer_*
+
+# misc
+.python-version

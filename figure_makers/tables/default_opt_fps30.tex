@@ -1,0 +1,27 @@
+\begin{table}[H]
+\caption{Complete tracking results for BoT-SORT and ByteTrack using default parameters and SMAC optimized parameters. HOTA, MOTA, IDF1, association accuracy (AssA), \
+        association recall (AssRe), association precision (AssPr), detection accuracy (DetA), and localization accuracy \
+        (LocA), and number of predicted track IDs are listed. The optimal value of metrics, high $\uparrow$ or low $\downarrow$, are indicated by arrows. Best scores, based on the unrounded values, are in bold. Ground truth annotations contain 51 IDs.}
+\label{tab:default and optimized results}
+\begin{tabular}{|l|r|r|r|r|r|r|r|r|r|}
+\hline
+Tracker & \multicolumn{1}{c|}{HOTA $\uparrow$} & \multicolumn{1}{c|}{MOTA $\uparrow$} & \multicolumn{1}{c|}{IDF1 $\uparrow$} & \multicolumn{1}{c|}{AssA $\uparrow$} & \multicolumn{1}{c|}{AssRe $\uparrow$} & \multicolumn{1}{c|}{AssPr $\uparrow$} & \multicolumn{1}{c|}{DetA $\uparrow$} & \multicolumn{1}{c|}{LocA $\uparrow$} & \multicolumn{1}{c|}{IDs} \\
+\hline\hline
+ByteTrack (default) + YOLO12n & 49.5 & 47.9 & 65.2 & 53.4 & 56.2 & 78.7 & 46.1 & 79.5 & 133 \\
+ByteTrack (default) + YOLO12m & 52.5 & 56.1 & 69.1 & 55.1 & 58.0 & 79.9 & 50.1 & 80.2 & 133 \\
+ByteTrack (default) + YOLO12x & 53.0 & 57.9 & 69.4 & 55.1 & 57.9 & 80.0 & 51.2 & 80.4 & 125 \\
+\hline\hline
+ByteTrack (SMAC) + YOLO12n & 50.1 & 47.0 & 67.3 & 54.7 & 64.1 & 67.5 & 46.2 & 79.1 & 55 \\
+ByteTrack (SMAC) + YOLO12m & 51.7 & 50.2 & 69.3 & 55.6 & 65.2 & 68.7 & 48.3 & 79.9 & 53 \\
+ByteTrack (SMAC) + YOLO12x & 53.0 & 57.5 & 72.5 & 55.8 & 63.6 & 69.8 & 50.4 & 80.3 & 50 \\
+\hline\hline
+BoT-SORT (default) + YOLO12n & 55.5 & 56.7 & 68.1 & 57.9 & 60.1 & 86.2 & 53.3 & 85.4 & 126 \\
+BoT-SORT (default) + YOLO12m & 59.0 & 64.2 & 72.2 & 60.2 & 62.4 & 87.2 & 57.8 & 85.9 & 122 \\
+BoT-SORT (default) + YOLO12x & \textbf{60.4} & \textbf{65.3} & 73.4 & 61.9 & 64.2 & \textbf{87.5} & \textbf{59.0} & \textbf{86.3} & 111 \\
+\hline\hline
+BoT-SORT (SMAC) + YOLO12n & 55.1 & 58.2 & 71.6 & 57.8 & 67.5 & 73.2 & 52.7 & 84.9 & 52 \\
+BoT-SORT (SMAC) + YOLO12m & 58.3 & 60.0 & \textbf{75.6} & \textbf{62.0} & 69.5 & 76.9 & 55.0 & 85.4 & 53 \\
+BoT-SORT (SMAC) + YOLO12x & 59.5 & 64.2 & 74.5 & 61.4 & \textbf{70.0} & 75.3 & 57.7 & 85.7 & 51 \\
+\hline
+\end{tabular}
+\end{table}

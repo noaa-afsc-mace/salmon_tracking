@@ -1,0 +1,15 @@
+\begin{table}[H]
+\caption{HOTA scores and tracker parameters from our optimization method for the IoU tracker. Confidence and matching thresholds are rounded for readability. The last row shows the "best case" parameters and HOTA score found by optimizing \textit{and} evaluating the tracker directly on the evaluation dataset.  The best HOTA score, based on the unrounded HOTA value, is in bold.}
+\label{tab:ioutrack params}
+\begin{tabular}{|l|r|r|r|r|}
+\hline
+Tracker & \multicolumn{1}{c|}{HOTA $\uparrow$} & \multicolumn{1}{c|}{Match threshold} & \multicolumn{1}{c|}{Track buffer} & \multicolumn{1}{c|}{Track threshold} \\
+\hline\hline
+IoU + YOLO12n & 49.6 & 0.81 & 16 & 0.39 \\
+IoU + YOLO12m & 53.5 & 1.00 & 60 & 0.39 \\
+IoU + YOLO12x & 55.3 & 1.00 & 36 & 0.35 \\
+\hline
+IoU + YOLO12x (optimized on test) & \textbf{55.7} & 0.89 & 11 & 0.23 \\
+\hline
+\end{tabular}
+\end{table}

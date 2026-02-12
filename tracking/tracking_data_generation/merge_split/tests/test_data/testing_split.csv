@@ -1,0 +1,4 @@
+Annotation File,Num Frames,Num Salmon Annotations,Num Pollock Annotations,No Fish,Fish Low,Fish Med,Fish High,Occlusion,Low Visibility,Num Salmon Tracks,Num Pollock Tracks,Excluded,Test,Train,,,,
+Total,17058,11575,73630,29,162,21,2,32,2,219,3104,,,,,,,
+2019_t15_vid6_1740_1799,60,43,18,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,1,2,FALSE,TRUE,FALSE,,,,
+2019_t17_vid13_0_1799,60,31,0,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,1,0,FALSE,FALSE,TRUE,,,,

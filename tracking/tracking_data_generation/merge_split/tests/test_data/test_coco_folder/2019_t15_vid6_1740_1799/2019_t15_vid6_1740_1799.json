@@ -1,0 +1,198 @@
+{
+    "licenses": [
+        {
+            "name": "",
+            "id": 0,
+            "url": ""
+        }
+    ],
+    "info": {
+        "contributor": "",
+        "date_created": "",
+        "description": "2019_t15_random_2_ds",
+        "url": "",
+        "version": "",
+        "year": ""
+    },
+    "categories": [
+        {
+            "id": 1,
+            "name": "Pollock",
+            "supercategory": ""
+        },
+        {
+            "id": 2,
+            "name": "Salmon",
+            "supercategory": ""
+        },
+        {
+            "id": 3,
+            "name": "Herring",
+            "supercategory": ""
+        },
+        {
+            "id": 4,
+            "name": "Fish",
+            "supercategory": ""
+        },
+        {
+            "id": 5,
+            "name": "Shark",
+            "supercategory": ""
+        },
+        {
+            "id": 7,
+            "name": "Other",
+            "supercategory": ""
+        },
+        {
+            "id": 8,
+            "name": "Occlusion",
+            "supercategory": ""
+        },
+        {
+            "id": 11,
+            "name": "Krill",
+            "supercategory": ""
+        },
+        {
+            "id": 14,
+            "name": "Fish Low",
+            "supercategory": ""
+        },
+        {
+            "id": 17,
+            "name": "Fish Med",
+            "supercategory": ""
+        },
+        {
+            "id": 20,
+            "name": "Fish High",
+            "supercategory": ""
+        },
+        {
+            "id": 23,
+            "name": "Low Light",
+            "supercategory": ""
+        },
+        {
+            "id": 26,
+            "name": "No Fish",
+            "supercategory": ""
+        },
+        {
+            "id": 29,
+            "name": "Low Visibility",
+            "supercategory": ""
+        }
+    ],
+    "images": [
+        {
+            "id": 15199,
+            "width": 1280,
+            "height": 720,
+            "file_name": "frame_000000.PNG",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0,
+            "cvat_tags": [
+                "Fish Low"
+            ]
+        },
+        {
+            "id": 15200,
+            "width": 1280,
+            "height": 720,
+            "file_name": "frame_000001.PNG",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0,
+            "cvat_tags": [
+                "Fish Low"
+            ]
+        },
+        {
+            "id": 15201,
+            "width": 1280,
+            "height": 720,
+            "file_name": "frame_000002.PNG",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0,
+            "cvat_tags": [
+                "Fish Low"
+            ]
+        }
+    ],
+    "annotations": [
+        {
+            "id": 2327,
+            "image_id": 15199,
+            "category_id": 2,
+            "segmentation": [],
+            "area": 9043.244999999997,
+            "bbox": [
+                381.92,
+                14.5,
+                109.35,
+                82.7
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "clustered": false,
+                "poor visibility": false,
+                "occluded": false,
+                "rotation": 0.0,
+                "track_id": 63,
+                "keyframe": true
+            }
+        },
+        {
+            "id": 2328,
+            "image_id": 15200,
+            "category_id": 2,
+            "segmentation": [],
+            "area": 8901.197499999998,
+            "bbox": [
+                394.36,
+                7.81,
+                100.25,
+                88.79
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "clustered": false,
+                "poor visibility": false,
+                "occluded": false,
+                "rotation": 0.0,
+                "track_id": 63,
+                "keyframe": false
+            }
+        },
+        {
+            "id": 2329,
+            "image_id": 15201,
+            "category_id": 2,
+            "segmentation": [],
+            "area": 8647.400499999998,
+            "bbox": [
+                406.8,
+                1.13,
+                91.15,
+                94.87
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "clustered": false,
+                "poor visibility": false,
+                "occluded": false,
+                "rotation": 0.0,
+                "track_id": 63,
+                "keyframe": true
+            }
+        }
+    ]
+}

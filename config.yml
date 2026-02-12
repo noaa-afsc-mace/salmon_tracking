@@ -1,0 +1,11 @@
+# --- Local paths ---
+ultralytics: "~/documents/github/ultralytics"
+trackeval: "~/documents/github/TrackEval"
+model_weights: "~/documents/github/salmon_tracking/final_results_2026/training/{DETECTIONS_SOURCE}/weights/best.pt"
+video_clips: "~/documents/salmon_tracking_data/video_clips/fps-{FPS}/"
+detection_data: "~/documents/salmon_tracking_data/detections"
+optimal_params_path: "~/documents/github/salmon_tracking/final_results_2026/optimal_params.yaml"
+experiment_visualization_path: "~/documents/salmon_tracking_data/experiment_visualization"
+gt_data_path: "~/documents/github/salmon_tracking/tracking/gt/mot_challenge"
+
+num_workers: 1

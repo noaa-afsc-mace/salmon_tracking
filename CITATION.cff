@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Lurbur"
+    given-names: "Moses"
+    orcid: "https://orcid.org/0009-0000-0837-8057"
+  - family-names: "Wilson"
+    given-names: "Katherine"
+    orcid: "https://orcid.org/0009-0001-8792-6919"
+title: "Tracker optimization and evaluation for bycatch reduction"
+version: 1.0
+date-released: 2026-02-04
+url: "https://github.com/noaa-afsc-mace/salmon_tracking"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Lurbur"
+      given-names: "Moses"
+      orcid: "https://orcid.org/0009-0000-0837-8057"
+    - family-names: "Wilson"
+      given-names: "Katherine"
+      orcid: "https://orcid.org/0009-0001-8792-6919"
+    - family-names: "Yochum"
+      given-names: "Noëlle"
+      orcid: "https://orcid.org/0000-0002-2003-6102"
+  doi: ""
+  journal: "Ecological Informatics"
+  title: "Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates"
+  year: 2026

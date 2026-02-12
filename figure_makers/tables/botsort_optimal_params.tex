@@ -1,0 +1,19 @@
+\begin{table}[H]
+\caption{HOTA scores and default and optimized tracker parameters for the BoT-SORT tracker. Confidence and matching thresholds are rounded for readability. The last row shows the "best case" parameters and HOTA score found by optimizing \textit{and} evaluating the tracker directly on the evaluation dataset.  The best HOTA score, based on the unrounded HOTA value, is in bold.}
+\label{tab:botsort params}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{1.4cm}|>{\raggedleft\arraybackslash}p{1.3cm}|>{\raggedright\arraybackslash}p{1cm}|>{\raggedleft\arraybackslash}p{1.8cm}|>{\raggedleft\arraybackslash}p{1.8cm}|>{\raggedleft\arraybackslash}p{1.1cm}|>{\raggedleft\arraybackslash}p{1.8cm}|>{\raggedleft\arraybackslash}p{1.8cm}|}
+\hline
+Tracker & \multicolumn{1}{>{\raggedright\arraybackslash}p{1.4cm}|}{Parameter source} & \multicolumn{1}{>{\centering\arraybackslash}p{1.3cm}|}{HOTA $\uparrow$} & \multicolumn{1}{>{\raggedright\arraybackslash}p{1cm}|}{Fuse score} & \multicolumn{1}{>{\centering\arraybackslash}p{1.8cm}|}{Match threshold} & \multicolumn{1}{>{\centering\arraybackslash}p{1.8cm}|}{New track threshold} & \multicolumn{1}{>{\centering\arraybackslash}p{1.1cm}|}{Track buffer} & \multicolumn{1}{>{\centering\arraybackslash}p{1.8cm}|}{Track high threshold} & \multicolumn{1}{>{\centering\arraybackslash}p{1.8cm}|}{Track low threshold} \\
+\hline\hline
+BoT-SORT + YOLO12n & Default & 55.5 & True & 0.80 & 0.25 & 30 & 0.25 & 0.10 \\
+BoT-SORT + YOLO12m & Default & 59.0 & True & 0.80 & 0.25 & 30 & 0.25 & 0.10 \\
+BoT-SORT + YOLO12x & Default & 60.4 & True & 0.80 & 0.25 & 30 & 0.25 & 0.10 \\
+\hline
+BoT-SORT + YOLO12n & SMAC & 55.1 & False & 3.66 & 0.28 & 60 & 0.50 & 0.28 \\
+BoT-SORT + YOLO12m & SMAC & 58.3 & False & 8.38 & 0.63 & 60 & 0.36 & 0.36 \\
+BoT-SORT + YOLO12x & SMAC & 59.5 & False & 5.40 & 0.51 & 60 & 0.51 & 0.20 \\
+\hline
+BoT-SORT + YOLO12x (optimized on test) & SMAC & \textbf{61.7} & False & 4.05 & 0.48 & 13 & 0.07 & 0.07 \\
+\hline
+\end{tabular}
+\end{table}

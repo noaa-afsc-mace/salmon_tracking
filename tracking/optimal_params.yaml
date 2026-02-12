@@ -1,0 +1,271 @@
+ioutrack:
+  model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260207-005043_smac_ioutrack_train_model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.392192
+    match_thresh: 0.811727
+    track_buffer: 16
+  model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260207-004736_smac_ioutrack_train_model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.391758
+    match_thresh: 0.999952
+    track_buffer: 60
+  model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260207-004653_smac_ioutrack_train_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.353787
+    match_thresh: 0.998826
+    track_buffer: 36
+  fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-194640_smac_ioutrack_train_fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.275944
+    match_thresh: 0.94154
+    track_buffer: 12
+  fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-180329_smac_ioutrack_train_fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.279024
+    match_thresh: 0.999538
+    track_buffer: 60
+  fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-165557_smac_ioutrack_train_fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.301758
+    match_thresh: 0.982527
+    track_buffer: 58
+  test_optimized-model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-163940_smac_ioutrack_test_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: ioutrack
+    track_thresh: 0.231773
+    match_thresh: 0.889803
+    track_buffer: 11
+centroidtrack:
+  model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-180727_smac_centroidtrack_train_model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.364523
+    match_thresh: 6.72837
+    track_buffer: 24
+  model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-181939_smac_centroidtrack_train_model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.399599
+    match_thresh: 1.70079
+    track_buffer: 14
+  model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-181742_smac_centroidtrack_train_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.324562
+    match_thresh: 6.71422
+    track_buffer: 60
+  fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-154144_smac_centroidtrack_train_fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.294631
+    match_thresh: 0.831381
+    track_buffer: 10
+  fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-144848_smac_centroidtrack_train_fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.263719
+    match_thresh: 6.24983
+    track_buffer: 33
+  fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-141817_smac_centroidtrack_train_fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.306199
+    match_thresh: 5.61132
+    track_buffer: 60
+  test_optimized-model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-143254_smac_centroidtrack_test_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: centroidtrack
+    track_thresh: 0.220728
+    match_thresh: 2.03819
+    track_buffer: 1
+bytetrack:
+  default:
+    source: ultralytics/cfg/trackers/bytetrack.yaml
+    tracker_type: bytetrack
+    track_low_thresh: 0.1
+    match_thresh: 0.8
+    track_buffer: 30
+    fuse_score: true
+    track_high_thresh: 0.25
+    new_track_thresh: 0.25
+  model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-152157_smac_bytetrack_train_model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.0529164
+    match_thresh: 5.95381
+    track_buffer: 31
+    fuse_score: true
+    new_track_scaling_factor: 0.54361
+    track_high_scaling_factor: 0.418802
+  model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-152542_smac_bytetrack_train_model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.162058
+    match_thresh: 9.07461
+    track_buffer: 46
+    fuse_score: false
+    new_track_scaling_factor: 0.462825
+    track_high_scaling_factor: 0.33379
+  model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-152446_smac_bytetrack_train_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.355772
+    match_thresh: 9.99952
+    track_buffer: 48
+    fuse_score: false
+    new_track_scaling_factor: 0.454767
+    track_high_scaling_factor: 0.28717
+  fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-135442_smac_bytetrack_train_fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.452865
+    match_thresh: 5.14987
+    track_buffer: 43
+    fuse_score: false
+    new_track_scaling_factor: 0.279717
+    track_high_scaling_factor: 0.000137113
+  fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-131519_smac_bytetrack_train_fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.238217
+    match_thresh: 4.94829
+    track_buffer: 46
+    fuse_score: false
+    new_track_scaling_factor: 0.230779
+    track_high_scaling_factor: 0.400942
+  fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-130000_smac_bytetrack_train_fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.0182041
+    match_thresh: 4.61512
+    track_buffer: 46
+    fuse_score: true
+    new_track_scaling_factor: 0.580144
+    track_high_scaling_factor: 0.424818
+  test_optimized-model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-130822_smac_bytetrack_test_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: bytetrack
+    track_low_thresh: 0.000300667
+    match_thresh: 2.76286
+    track_buffer: 10
+    fuse_score: false
+    new_track_scaling_factor: 0.556533
+    track_high_scaling_factor: 0.129272
+botsort:
+  default:
+    source: ultralytics/cfg/trackers/botsort.yaml
+    tracker_type: botsort
+    track_low_thresh: 0.1
+    match_thresh: 0.8
+    track_buffer: 30
+    fuse_score: true
+    appearance_thresh: 0.8
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_thresh: 0.25
+    track_high_thresh: 0.25
+  model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-224332_smac_botsort_train_model_type-yolo12n_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.284766
+    match_thresh: 3.66374
+    track_buffer: 60
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 8.55648e-05
+    track_high_scaling_factor: 0.303381
+    model: auto
+  model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-224235_smac_botsort_train_model_type-yolo12m_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.356211
+    match_thresh: 8.3791
+    track_buffer: 60
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.426091
+    track_high_scaling_factor: 0.000346527
+    model: auto
+  model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-224235_smac_botsort_train_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.198163
+    match_thresh: 5.40451
+    track_buffer: 60
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.389089
+    track_high_scaling_factor: 0.383354
+    model: auto
+  fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-183924_smac_botsort_train_fps-15.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.201755
+    match_thresh: 9.99965
+    track_buffer: 60
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.378217
+    track_high_scaling_factor: 0.404612
+    model: auto
+  fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-170124_smac_botsort_train_fps-10.0_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.218248
+    match_thresh: 5.6292
+    track_buffer: 26
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.40326
+    track_high_scaling_factor: 0.327847
+    model: auto
+  fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-160359_smac_botsort_train_fps-7.5_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.264042
+    match_thresh: 8.67631
+    track_buffer: 27
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.399465
+    track_high_scaling_factor: 0.163782
+    model: auto
+  test_optimized-model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default:
+    source: tracking/optimization/20260206-154404_smac_botsort_test_model_type-yolo12x_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default_results.txt
+    tracker_type: botsort
+    track_low_thresh: 0.0693761
+    match_thresh: 4.0539
+    track_buffer: 13
+    fuse_score: false
+    appearance_thresh: 0.25
+    gmc_method: sparseOptFlow
+    proximity_thresh: 0.5
+    with_reid: false
+    new_track_scaling_factor: 0.440873
+    track_high_scaling_factor: 1.09919e-05
+    model: auto

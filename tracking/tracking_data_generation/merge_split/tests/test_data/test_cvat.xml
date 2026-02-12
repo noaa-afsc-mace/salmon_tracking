@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>67</id>
+      <name>2019_t15_random_1_ds</name>
+      <size>1200</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-07-25 19:23:40.771524+00:00</created>
+      <updated>2022-08-02 19:26:14.244943+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1199</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>47</id>
+          <start>0</start>
+          <stop>1199</stop>
+          <url>http://10.27.24.151:8080/?id=47</url>
+        </segment>
+      </segments>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Pollock</name>
+          <color>#33ddff</color>
+          <attributes>
+            <attribute>
+              <name>clustered</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>poor visibility</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Salmon</name>
+          <color>#66ff66</color>
+          <attributes>
+            <attribute>
+              <name>clustered</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>poor visibility</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Herring</name>
+          <color>#aaf0d1</color>
+          <attributes>
+            <attribute>
+              <name>clustered</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>poor visibility</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish</name>
+          <color>#b83df5</color>
+          <attributes>
+            <attribute>
+              <name>clustered</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>poor visibility</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Shark</name>
+          <color>#c8c8c8</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Invertebrate</name>
+          <color>#fafa37</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Other</name>
+          <color>#b25050</color>
+          <attributes>
+            <attribute>
+              <name>clustered</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+            <attribute>
+              <name>poor visibility</name>
+              <mutable>True</mutable>
+              <input_type>checkbox</input_type>
+              <default_value>false</default_value>
+              <values>false</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Occlusion</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Occlusion start</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Occlusion end</name>
+          <color>#ff6a4d</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Krill</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Krill start</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Krill end</name>
+          <color>#fa3253</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Low</name>
+          <color>#5e9668</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Low start</name>
+          <color>#5e9668</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Low end</name>
+          <color>#5e9668</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Med</name>
+          <color>#ffcc33</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Med start</name>
+          <color>#ffcc33</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish Med end</name>
+          <color>#ffcc33</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish High</name>
+          <color>#ff00cc</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish High start</name>
+          <color>#ff00cc</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Fish High end</name>
+          <color>#ff00cc</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Light</name>
+          <color>#00189b</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Light start</name>
+          <color>#00189b</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Light end</name>
+          <color>#00189b</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>No Fish</name>
+          <color>#050505</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>No Fish start</name>
+          <color>#050505</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>No Fish end</name>
+          <color>#050505</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Visibility</name>
+          <color>#5986b3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Visibility start</name>
+          <color>#5986b3</color>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Low Visibility end</name>
+          <color>#5986b3</color>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>1280</width>
+        <height>720</height>
+      </original_size>
+    </task>
+    <dumped>2022-08-04 00:08:07.606094+00:00</dumped>
+    <source>2019_t15_random_1.MOV</source>
+  </meta>
+  <image id="0" name="frame_000000" width="1280" height="720">
+    <box label="Salmon" occluded="0" source="manual" xtl="193.64" ytl="108.67" xbr="370.57" ybr="322.48" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="516.30" ytl="170.70" xbr="567.70" ybr="240.29" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">true</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="749.28" ytl="346.74" xbr="861.36" ybr="434.50" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="978.30" ytl="0.76" xbr="1085.91" ybr="108.36" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <tag label="Fish Low" source="manual">
+    </tag>
+    <tag label="Fish Love" source="manual">
+    </tag>
+  </image>
+  <image id="1" name="frame_000001" width="1280" height="720">
+    <box label="Salmon" occluded="0" source="manual" xtl="202.39" ytl="108.67" xbr="371.41" ybr="319.44" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="517.10" ytl="171.03" xbr="566.24" ybr="240.62" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">true</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="762.20" ytl="345.77" xbr="858.33" ybr="431.20" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="976.27" ytl="8.21" xbr="1072.20" ybr="107.48" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <tag label="Fish Low" source="manual">
+    </tag>
+  </image>
+  <image id="2" name="frame_000002" width="1280" height="720">
+    <box label="Salmon" occluded="0" source="manual" xtl="211.14" ytl="108.67" xbr="372.25" ybr="316.41" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="517.90" ytl="171.35" xbr="564.79" ybr="240.94" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">true</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="775.12" ytl="344.80" xbr="855.30" ybr="427.90" z_order="0">
+      <attribute name="poor visibility">false</attribute>
+      <attribute name="clustered">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="974.24" ytl="15.65" xbr="1058.50" ybr="106.60" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <tag label="Fish Low" source="manual">
+    </tag>
+  </image>
+  <image id="3" name="frame_000003" width="1280" height="720">
+    <box label="Salmon" occluded="0" source="manual" xtl="219.90" ytl="108.67" xbr="373.10" ybr="313.37" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="518.70" ytl="171.68" xbr="563.33" ybr="241.27" z_order="0">
+      <attribute name="clustered">false</attribute>
+      <attribute name="poor visibility">true</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="788.05" ytl="330.15" xbr="853.20" ybr="426.55" z_order="0">
+      <attribute name="poor visibility">false</attribute>
+      <attribute name="clustered">false</attribute>
+    </box>
+    <box label="Pollock" occluded="0" source="manual" xtl="957.30" ytl="31.60" xbr="1044.30" ybr="106.30" z_order="0">
+      <attribute name="poor visibility">false</attribute>
+      <attribute name="clustered">false</attribute>
+    </box>
+    <tag label="Fish Low" source="manual">
+    </tag>
+  </image>
+</annotations>

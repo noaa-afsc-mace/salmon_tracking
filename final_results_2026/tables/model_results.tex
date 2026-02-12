@@ -1,0 +1,21 @@
+\begin{table}[H]
+\caption{Object detection model results with mAP, AP,         mAP50, precision (P), and recall (R) are shown. Best scores, based on the unrounded values,             are in bold. All metrics are calculated using a model confidence score threshold of 0.001.}
+\label{tab:model results}
+\begin{tabular}{|l|r|r|r|r|>{\raggedleft\arraybackslash}p{1.2cm}|>{\raggedleft\arraybackslash}p{1.2cm}|>{\raggedleft\arraybackslash}p{1.2cm}|>{\raggedleft\arraybackslash}p{1.2cm}|>{\raggedleft\arraybackslash}p{1.2cm}|>{\raggedleft\arraybackslash}p{1.2cm}|}
+\hline
+Model & \multicolumn{1}{c|}{mAP} & \multicolumn{1}{c|}{mAP50} & \multicolumn{1}{c|}{P} & \multicolumn{1}{c|}{R} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{AP salmon} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{AP pollock} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{P salmon} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{P pollock} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{R salmon} & \multicolumn{1}{>{\centering\arraybackslash}p{1.2cm}|}{R pollock} \\ 
+ \hline
+\hline
+YOLO12n & 54.6 & 84.0 & 82.3 & 75.5 & 56.3 & 53.0 & 78.9 & \textbf{85.8} & 74.3 & 76.7 \\ 
+ \hline
+YOLO12s & 55.9 & 85.0 & 83.1 & 77.6 & 58.2 & 53.6 & 80.7 & 85.4 & 77.1 & 78.1 \\ 
+ \hline
+YOLO12m & 57.6 & 85.7 & 83.5 & 79.4 & 60.3 & 54.9 & 82.8 & 84.3 & 77.2 & 81.5 \\ 
+ \hline
+YOLO12l & 59.0 & \textbf{87.2} & \textbf{84.8} & 80.3 & 62.7 & 55.4 & \textbf{84.4} & 85.3 & 79.2 & 81.4 \\ 
+ \hline
+YOLO12x & \textbf{59.5} & 87.2 & 83.8 & \textbf{81.1} & \textbf{63.1} & \textbf{56.0} & 83.3 & 84.4 & \textbf{79.4} & \textbf{82.9} \\ 
+ \hline
+
+\end{tabular}
+\end{table}

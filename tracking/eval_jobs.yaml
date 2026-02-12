@@ -1,0 +1,27 @@
+# Evaluation job configuration (default/manual use).
+# Each job defines a model + fps combination.
+# All jobs are run for every tracker listed in `trackers`.
+#
+# params_source controls which parameters are loaded from optimal_params.yaml:
+#   "train_optimized" (default) - params optimized on training data
+#   "test_optimized"            - params optimized on test data (for validation of optimization method)
+#   "default"                   - default ultralytics tracker params (only bytetrack & botsort)
+#
+# For bulk parallel runs, use `launch_all_evals.sh` instead,
+# which generates per-window YAML configs in tracking/eval_jobs/.
+
+trackers:
+  - bytetrack
+  - botsort
+  # - centroidtrack
+  # - ioutrack
+
+mode: test # dataset to eval on
+
+detection_source_template: "model_type-{model}_data_source-clip_based_2_class_2_11_25_training_epochs-500_hyperparameter_source-default"
+
+jobs:
+  - model: yolo12x
+    fps: [15.0, 10.0, 7.5]
+    params_source: default
+
