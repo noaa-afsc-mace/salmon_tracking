@@ -23,7 +23,7 @@ preferred-citation:
     - family-names: "Yochum"
       given-names: "Noëlle"
       orcid: "https://orcid.org/0000-0002-2003-6102"
-  doi: ""
+  doi: "10.1016/j.ecoinf.2026.103674"
   journal: "Ecological Informatics"
   title: "Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates"
   year: 2026
