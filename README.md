@@ -5,7 +5,7 @@
 
 This repository contains the code used for model training, tracker optimization, evaluation, and analysis in the publication: *Towards automated bycatch monitoring: optimizing and evaluating multi-object tracking of salmon in pollock trawls*.
 
-[[Paper link coming soon]()] | [NOAA InPort data entry](https://www.fisheries.noaa.gov/inport/item/79020)
+[[Paper link](https://doi.org/10.1016/j.ecoinf.2026.103674)] | [NOAA InPort data entry](https://www.fisheries.noaa.gov/inport/item/79020)
 
 We provide all code and data necessary to fully replicate our results or use our trained models and optimized trackers for your own applications.
 
