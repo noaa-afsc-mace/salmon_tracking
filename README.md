@@ -83,7 +83,7 @@ Figures, videos, and tables are created using four scripts:
     Creates visualizations of tracking, plotting ground truths and predictions over videos. Creates dual and quad, and single tracker visualization videos for easy comparison of trackers
 
 ## License
-This repository is released under the MIT license as found in the [LICENSE](LICENSE) file.
+This repository is released under the AGPL-3.0 license as found in the [LICENSE](LICENSE) file. We would prefer to provide our work under a more permissive MIT license. Unfortunately, we use Ultralytics's models and trackers and their license requires us to use AGPL-3.0. We encourage you to take inspiration from our work, cite our paper if you find it useful, and rely on more community-oriented packages like [SAM3](https://github.com/facebookresearch/sam3) for your object detection needs.
 
 ## Citation
 
