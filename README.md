@@ -92,7 +92,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 ```
 @article{Lurbur_Salmon_Tracking_2026,
 author = {Lurbur, Moses and Wilson, Katherine and Yochum, Noëlle},
-doi = {},
+doi = {10.1016/j.ecoinf.2026.103674},
 journal = {Ecological Informatics},
 title = {{Multi-object tracking in the trawl: a performance comparison of tracking accuracy across tracking algorithms, detection models, and frame rates}},
 year = {2026}
